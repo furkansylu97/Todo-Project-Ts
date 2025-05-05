@@ -25,7 +25,9 @@ const App: FC = () => {
 
   const addNewTask = () => {
     const newTask = {taskName:task, duration:duration};
-    setTodoList([...todoList, newTask])
+    setTodoList([...todoList, newTask]);
+    setTask('');
+    setDuration(0);
   }
 
   return (

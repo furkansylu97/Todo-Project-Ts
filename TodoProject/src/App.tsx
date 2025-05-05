@@ -39,7 +39,7 @@ const App: FC = () => {
         <input className='maincardinput' type="number" onChange={handleChange} value={duration} name='duration' placeholder='How many days should you complete?' />
         <button className='maincardbtn' onClick={addNewTask}>Add a new task</button>
     </div>
-    <div>
+    <div className='todocard'>
       {todoList.map((task: todoType, index: number)=> {
         return <TodoItem key={index} task={task} deleteTask={deleteTask} />
       })}

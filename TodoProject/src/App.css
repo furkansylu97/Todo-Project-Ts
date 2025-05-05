@@ -19,3 +19,19 @@
     background-color: blue;
     color: white;
 }
+
+.todocard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

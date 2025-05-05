@@ -3,7 +3,7 @@ import type { PropsType } from './Apptypes'
 
 function TodoItem({ task, deleteTask }:PropsType) {
   return (
-    <div>
+    <div className='card'>
         <div>
             <p>{task.taskName}</p>
             <p>{task.duration}</p>

@@ -34,10 +34,10 @@ const App: FC = () => {
 
   return (
     <>
-     <div>
-        <input type="text" onChange={handleChange} value={task} name='task' placeholder='Please enter your task...' />
-        <input type="number" onChange={handleChange} value={duration} name='duration' placeholder='How many days should you complete?' />
-        <button onClick={addNewTask}>Add a new tasd</button>
+     <div className='maincard'>
+        <input className='maincardinput' type="text" onChange={handleChange} value={task} name='task' placeholder='Please enter your task...' />
+        <input className='maincardinput' type="number" onChange={handleChange} value={duration} name='duration' placeholder='How many days should you complete?' />
+        <button className='maincardbtn' onClick={addNewTask}>Add a new task</button>
     </div>
     <div>
       {todoList.map((task: todoType, index: number)=> {

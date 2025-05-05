@@ -1,0 +1,21 @@
+.maincard {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.maincardinput {
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.maincardbtn {
+    padding: 10px;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}

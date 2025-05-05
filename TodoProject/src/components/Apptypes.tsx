@@ -5,4 +5,5 @@
   }
  export type PropsType = {
     task:todoType;
+    deleteTask(nameToDelete:string): void
   }
